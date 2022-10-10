@@ -12,7 +12,10 @@
         <title>Home Page</title>
     </head>
     <body>
+        <form method="get" action="login">
         <h1>Home Page</h1>
-        <h2>Hello ${}</h2>
+        <h2>Hello ${username}!</h2>
+        <a href="login">logout </a>
+        </form>
     </body>
 </html>
